@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="08f18eb7-ac23-4b49-8534-b66580eac778" name="Changes" comment="" />
+    <list default="true" id="08f18eb7-ac23-4b49-8534-b66580eac778" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/simplecalculator/backend/SimpleCalculatorBackendApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/simplecalculator/backend/SimpleCalculatorBackendApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/simplecalculator/backend/controllers/MathOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/simplecalculator/backend/controllers/MathOperator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/simplecalculator/backend/controllers/DoMathRequestTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/simplecalculator/backend/controllers/DoMathRequestTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/demo/simplecalculator/backend/controllers/MathControllerTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/demo/simplecalculator/backend/controllers/MathControllerTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +22,9 @@
         <option value="Interface" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="JpbToolWindowState">
     <option name="myId2FirstActivated">
@@ -45,6 +53,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2Iqi3vaUzGvMU1S8bQGelfNw3ZL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -66,7 +75,7 @@
       <recent name="com.demo.simplecalculator.backend.controllers" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MathControllerTests">
+  <component name="RunManager" selected="JUnit.DoMathRequestTests">
     <configuration name="CalculatorHistoryServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend" />
       <extension name="coverage">
@@ -127,7 +136,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleCalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MathControllerTests.getDoMathSolution" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="backend" />
       <extension name="coverage">
         <pattern>
@@ -136,8 +145,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.demo.simplecalculator.backend.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.demo.simplecalculator.backend.controllers.SimpleCalculatorTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="com.demo.simplecalculator.backend.controllers.MathControllerTests" />
+      <option name="METHOD_NAME" value="getDoMathSolution" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -151,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MathControllerTests" />
         <item itemvalue="JUnit.DoMathRequestTests" />
         <item itemvalue="JUnit.CalculatorHistoryServiceTest" />
+        <item itemvalue="JUnit.MathControllerTests" />
+        <item itemvalue="JUnit.MathControllerTests.getDoMathSolution" />
         <item itemvalue="JUnit.HomeControllerTest" />
-        <item itemvalue="JUnit.SimpleCalculatorTest" />
       </list>
     </recent_temporary>
   </component>
@@ -168,11 +178,33 @@
       <option name="presentableId" value="Default" />
       <updated>1670915320379</updated>
       <workItem from="1670915321681" duration="9754000" />
-      <workItem from="1670925416340" duration="625000" />
+      <workItem from="1670926056742" duration="1757000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/demo/simplecalculator/backend/controllers/DoMathRequestTests.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
